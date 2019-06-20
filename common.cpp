@@ -101,8 +101,6 @@ PlaneModel<float> ransac_plane(void (*get_3d_pt)(int,int,float*)) {
 #include <stdint.h>
 #include <string.h>
 
-#include <immintrin.h>
-
 bool find_plane = true;
 bool filter = true;
 bool *quit;
